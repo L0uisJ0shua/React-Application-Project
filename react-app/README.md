@@ -1,3 +1,6 @@
+### Louis's Notes on the Project
+https://www.notion.so/l0j0shua/React-Training-Course-da7e8a31adac4063aa2f8b6ed6bfdda9
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
