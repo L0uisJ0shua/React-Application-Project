@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
-  return (
-    <main className='container'>
-      <h1>Hello Word</h1>
-    </main>
-  );
+	return (
+		<React.Fragment>
+			<main className="container">
+				<h1>Vidly Movie Renting Service</h1>
+			</main>
+			<div className="container" id="movies"></div>
+		</React.Fragment>
+	);
 }
 
 export default App;
