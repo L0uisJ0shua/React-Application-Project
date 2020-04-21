@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.css";
-import Counter from "./components/counterComponent";
+import Counters from "./components/counters";
 
 // const element = <h1>Hello World</h1>; // Babel will compile this down to React.createElement
 
@@ -14,4 +14,4 @@ import Counter from "./components/counterComponent";
 // id of the div container that we want to render the React Component in the DOM.
 // ReactDOM.render(element, document.getElementById('root'));
 
-ReactDOM.render(<Counter />, document.getElementById('root'));
+ReactDOM.render(<Counters />, document.getElementById('root'));
