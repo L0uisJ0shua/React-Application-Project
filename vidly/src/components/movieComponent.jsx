@@ -53,7 +53,9 @@ class Movies extends Component {
 	};
 
 	renderMovieCount = () => {
-		if (this.state.movies.length !== 0) {
+		if (this.state.movies.length === 1) {
+			return "Showing " + this.state.movies.length + " movie in the database.";
+		} else if (this.state.movies.length !== 0 || this.state.movies.length !== 1) {
 			return "Showing " + this.state.movies.length + " movies in the database.";
 		} else {
 			return "There are no movies in the database.";
